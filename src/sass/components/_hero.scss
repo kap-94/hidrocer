@@ -1,0 +1,69 @@
+.hero {
+  background-image: url("../images/main-img.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+  padding: 0;
+
+  &__primary {
+    text-align: center;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    font-size: 3.15rem;
+    padding: 0 1rem;
+
+    @include respond(sm) {
+      font-size: 4.25rem;
+      line-height: 3.25rem;
+      margin-left: 10%;
+      padding: unset;
+      text-align: unset;
+    }
+
+    @include respond(md) {
+      line-height: 4rem;
+      font-size: 4.65rem;
+    }
+
+    @include respond(lg) {
+      font-size: 5.25rem;
+      line-height: 5.25rem;
+    }
+  }
+
+  &__primary-main {
+    margin-top: 10%;
+    animation-name: moveInLeft;
+  }
+
+  &__primary-sub {
+    animation-name: moveInRight;
+  }
+
+  &__contact-box {
+    background-color: var(--color-white);
+    color: var(--grey-dark);
+    height: 20rem;
+    text-transform: capitalize;
+
+    h2,
+    p {
+      animation: moveInBottom 2s ease-out;
+    }
+
+    button {
+      padding: 3rem;
+    }
+
+    @include respond(md) {
+      padding: 1.5rem 3rem;
+      width: 57%;
+    }
+
+    @include respond(xl) {
+      padding: 5rem;
+      width: 45%;
+    }
+  }
+}

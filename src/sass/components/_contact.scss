@@ -1,0 +1,51 @@
+.contact {
+  &__form {
+    font-size: 2rem;
+    padding: 0 5rem;
+    // max-width: 75rem;
+
+    &-row {
+      width: 100%;
+    }
+
+    .form-control {
+      border-radius: 2px;
+      border: none;
+      border-bottom: 1px solid var(--color-grey-light);
+      font-size: 1.3rem;
+    }
+
+    .form-group {
+      label {
+        font-size: 1.65rem;
+        margin-bottom: 1rem;
+      }
+      textarea {
+        border: 1px solid var(--color-grey-light);
+      }
+    }
+
+    .form-control--input {
+      margin-bottom: 1.5rem;
+      height: 4rem;
+      width: 100%;
+    }
+
+    .btn-form {
+      width: 10rem;
+      height: 4rem;
+      font-size: 1.5rem;
+
+      font-weight: 800;
+    }
+  }
+
+  &__data {
+    line-height: 1;
+    letter-spacing: 1.5px;
+    margin-bottom: 13.5rem;
+    width: 30rem;
+    padding: 5.5rem 3.5rem;
+    // transform: translateY(-5px);
+  }
+}

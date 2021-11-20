@@ -1,0 +1,26 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./plugins/jquery.jdSlider.css";
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/hero";
+@import "components/button";
+@import "components/grid";
+@import "components/carousel";
+@import "components/hints";
+@import "components/text-component--1";
+@import "components/card-component--1";
+@import "components/brand-slider";
+@import "components/contact";
+
+@import "layout/navbar";
+@import "layout/footer";
+
+@import "pages/home";

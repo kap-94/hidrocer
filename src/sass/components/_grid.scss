@@ -1,0 +1,58 @@
+.grid {
+  &__img {
+    margin: 0 1rem 1.15rem 1rem;
+    cursor: pointer;
+    transition: 1s all;
+
+    @include respond(md) {
+      margin: 0;
+    }
+  }
+
+  &__col-right {
+    width: 100%;
+
+    @include respond(md) {
+      width: 40%;
+    }
+  }
+
+  &__img--1 {
+    height: 30rem;
+    background: url(../images/services4.jpg);
+    background-size: cover;
+    background-position: left;
+
+    @include respond(md) {
+      height: 60.5rem;
+      margin: 0;
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__img--2 {
+    height: 30rem;
+    background: url(../images/boiler.jpg);
+    background-size: contain;
+    background-position: left;
+
+    @include respond(md) {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__img--3 {
+    height: 30rem;
+    background: url(../images/project-plan.jpg);
+    background-size: cover;
+    background-position: left;
+  }
+
+  &__img--4 {
+    height: 30rem;
+    background: url(../images/services1.jpg);
+    background-size: cover;
+    background-position: left;
+  }
+}

@@ -1,0 +1,63 @@
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// MEDIA QUERY MANAGER BOOTSTRAP SIZES
+/*
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    @media (min-width: 36em) {
+      // 576px
+      @content;
+    }
+  }
+
+  @if $breakpoint == md {
+    @media (min-width: 48em) {
+      // 768px
+      @content;
+    }
+  }
+
+  @if $breakpoint == lg {
+    @media (min-width: 62em) {
+      // 992px
+      @content;
+    }
+  }
+
+  @if $breakpoint == xl {
+    @media (min-width: 75em) {
+      // 1200px
+      @content;
+    }
+  }
+
+  @if $breakpoint == xxl {
+    @media (min-width: 87.5em) {
+      // 1400px
+      @content;
+    }
+  }
+}
