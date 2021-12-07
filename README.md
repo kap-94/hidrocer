@@ -1,7 +1,7 @@
 <h1 align="center">
 Hidrocer Landing Page</h1>
 <p align="center">
-  The first version of <a href="https://hidrocer.netlify.app/" target="_blank">hidroce.netlify.app</a> built with <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first version of <a href="https://hidrocer.netlify.app/" target="_blank">hidrocer.netlify.app</a> built with <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 
