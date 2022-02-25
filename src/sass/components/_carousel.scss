@@ -8,75 +8,12 @@
     position: relative;
   }
 
-  &__img {
+  &__image {
+    position: absolute;
     left: 10;
     top: 0;
+    opacity: 0.9;
     height: 100%;
-    position: absolute;
+    width: 100%;
   }
 }
-
-// /*=============================================
-// TABLET HORIZONTAL (LG revisamos en 1024px)
-// =============================================*/
-
-// @media (max-width:1199px) and (min-width:992px){
-
-// }
-
-// /*=============================================
-// TABLET VERTICAL (MD revisamos en 768px)
-// =============================================*/
-
-// @media (max-width:991px) and (min-width:768px){
-
-//     .about-us{
-
-//         .carousel-item{
-//             height: 34rem;
-//         }
-
-//         &__info {
-
-//                 bottom: 3rem;
-//                 left: 3rem;
-//         }
-//     }
-// }
-
-// /*=============================================
-// MÓVIL HORIZONTAL (SM revisamos en 576px)
-// =============================================*/
-
-// @media (max-width:767px) and (min-width:576px){
-
-// 	.about-us{
-
-//         .carousel-item{
-//             height: 21rem;
-//         }
-
-//         &__info {
-//             display: none;
-//         }
-//     }
-
-// }
-
-// /*=============================================
-// MOVIL VERTICAL (revisamos en 320px)
-// =============================================*/
-
-// @media (max-width:575px){
-
-// 	.about-us{
-
-//         .carousel-item{
-//             height: 21rem;
-//         }
-
-//         &__info {
-//             display: none;
-//         }
-//     }
-// }

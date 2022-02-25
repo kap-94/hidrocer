@@ -22,3 +22,7 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+.lazy-img {
+  filter: blur(20px);
+}

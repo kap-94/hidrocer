@@ -1,484 +1,794 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/sass/main.scss" />    
-    <link rel="shortcut icon" type="image/jpg" href="src/images/logo.jpg">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <link rel="shortcut icon" type="image/png" href="src/images/logo2.png" />
+
     <!-- JS -->
-    <script type='module' src="src/js/index.js" defer></script>
-    <script type='module' src="https://kit.fontawesome.com/ed6e9f570d.js" crossorigin="anonymous" defer></script>
+    <script type="module" defer src="src/js/index.js"></script>
+    <script
+      type="module"
+      defer
+      src="https://kit.fontawesome.com/ed6e9f570d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Hidrocer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg mx-auto">
-            <div class='container-fluid'>
-                <a class="navbar-brand" href="/#">
-                    <h1>HIDRO<span style="font-weight: 100">CER</span></h1>
-                </a>
+      <!-- Navbar -->
+      <header id="navbar-container" class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-lg mx-auto">
+          <a class="navbar-brand" href="/">
+            <h1>HIDRO<span style="font-weight: 100">CER</span></h1>
+          </a>
 
-                <button class="navbar-toggler navbar-light" title="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <button
+            class="navbar-toggler navbar-light"
+            title="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/#section-services">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/#section-aboutus">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
-                    </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#section-services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#section-projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#section-about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-contact">Contact</a>
+              </li>
+            </ul>
 
-                    <div class="d-flex align-items-center ms-auto text-white">
-                        <div class="navbar__phone me-5 d-none d-lg-block"> <i class="fa fa-phone"
-                                aria-hidden="true"></i> +52 2354997
-                        </div>
-                        <button type="button"
-                            class="btn btn-dark d-none d-xl-block border-dark rounded-pill fs-4 fw-bold py-3 px-5"><a
-                                href="/#section-contact"
-                                class='text-decoration-none text-white'>Contáctanos</a></button>
-                    </div>
+            <div class="d-flex align-items-center ms-auto text-white">
+              <div class="navbar__phone me-5 d-none d-lg-block">
+                <i class="fa fa-phone" aria-hidden="true"></i> +52 7974531
+              </div>
 
-                </div>
+              <a
+                type="button"
+                class="text-decoration-none text-white btn btn-dark d-none d-xl-block border-dark rounded-pill fs-4 fw-bold py-3 px-5"
+                href="/#section-contact"
+                class=""
+                >Contact Us</a
+              >
             </div>
+          </div>
         </nav>
+      </header>
 
-        <!-- Hero -->
-        <section class="section-hero container p-0">
-            <div class="hero row h-100 m-0">
-                <div class="col-12 d-flex align-items-center h-75 p-0">
+      <!-- Hero -->
+      <section class="section-hero container p-0">
+        <div class="hero h-100">
+          <div class="row d-flex align-items-center h-75 m-0">
+            <h1 class="heading-primary text-white">
+              <span class="heading-primary--main">Need Construction</span>
+              <br />
+              <span class="heading-primary--sub">Think Hidrocer</span>
+            </h1>
+          </div>
 
-                    <div class="row text-white text-uppercase">
-                        <h1 class='hero__primary hero__primary-main'>Diseño y Construcción</h1>
-                        <br>
-                        <h1 class="hero__primary hero__primary-sub">de Instalaciones</h1>
-                    </div>
+          <div
+            class="row justify-content-end align-items-sm-end h-25 mx-5 m-sm-0"
+          >
+            <div class="card-contact">
+              <div class="card-contact__text">
+                <h3 class="heading-tertiary fw-bold mb-3">Let us help you</h3>
+                <p>Get in touch with one of our representatives</p>
+              </div>
 
-                </div>
-
-                <div class="d-none d-md-block col-12 h-25 p-0">
-                    <div class="hero__contact-box row align-items-center ms-auto h-100">
-
-                        <div class='col-md-8 col-lg-10'>
-                            <h2 class='fw-bold'>Podemos ayudarte</h2>
-                            <p>Ponte en contacto con uno de nuestros representantes</p>
-                        </div>
-
-                        <div class="col-md-4 col-lg-2 d-flex justify-content-center">
-                            <button type="button" class="btn btn-tertiary rounded-circle"><i
-                                    class="fa fa-arrow-right fs-2 text-white" aria-hidden="true"></i></button>
-                        </div>
-
-                    </div>
-                </div>
+              <a
+                href="/#section-contact"
+                type="button"
+                class="card-contact__button btn btn-tertiary"
+              >
+                <i
+                  class="fa fa-arrow-right fs-2 text-white"
+                  aria-hidden="true"
+                ></i>
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Presentation -->
-        <section class='section-presentation'>
-            <div class="container">
-                <div class="row ">
-                    <div class="col-sm-2">
-                        <h3>| Quienes Somos?</h3>
-                    </div>
-                    <div class="col-sm-10">
-                        <div class='moveInRight'>
-                            <h1 class='ms-5 moveInRight'>Somos una empresa con <strong class='text-danger'>30
-                                    años</strong>
-                                de experiencia,</h1>
-                            <h1>especializada en el diseño y construcción de</h1>
-                            <h1>instalaciones hidráulicas e hidrosanitarias con</h1>
-                            <h1>los más altos estándares de calidad.</h1>
-                        </div>
-                    </div>
-                </div>
+      <!-- Presentation -->
+      <section class="section-presentation">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <h4 class="my-5 my-sm-0">| Who Are We?</h4>
             </div>
-        </section>
+            <div class="col-sm-10 col-lg-8 col-xl-7">
+              <h2 class="heading-secondary fw-normal">
+                <span class="ms-sm-5">We are a </span
+                ><strong class="text-danger">30 years old </strong>
+                business that have distinct but complementary capabilities,
+                addressing different segments of the construction industry.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Services Grid -->
-        <section id="section-services" class="section-services container-fluid bg-white">
-            <div class="container">
+      <!-- Services Grid -->
+      <section id="section-services" class="section section-services">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center text-md-left my-5">
+              <h2 class="heading-secondary mb-3">
+                Constructions of the highest quality
+              </h2>
+              <h3 class="heading-tertiary fw-normal">
+                Hidrocer provides design-to-delivery solutions across the
+                construction expectrum
+              </h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="services-grid">
+              <figure
+                class="card-grid services-grid__item services-grid__item--1"
+              >
+                <img
+                  srcset="
+                    ./src/images/grid/hospital-2-640w.jpg  1x,
+                    ./src/images/grid/hospital-2-1920w.jpg 2x
+                  "
+                  class="card-grid__image"
+                  alt="Hospital"
+                  src="./src/images/grid/hospital-2-1920w.jpg"
+                />
+                <span class="card-grid__title">Hospitals</span>
+                <div class="card-grid-hover__bg"></div>
+                <div class="card-grid-hover__content">
+                  <p class="fw-bold mb-3">
+                    Lorem ipsum dolor sit amet. &amp; Lorem
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloremque rem reiciendis sit a harum obcaecati vero ab, eos
+                    aperiam placeat et quaerat minima similique nostrum!
+                  </p>
+                </div>
+              </figure>
+
+              <figure
+                class="card-grid services-grid__item services-grid__item--2"
+              >
+                <img
+                  srcset="
+                    ./src/images/grid/building-1-640w.jpg  1x,
+                    ./src/images/grid/building-1-1920w.jpg 2x
+                  "
+                  class="card-grid__image"
+                  alt="Building"
+                  src="./src/images/grid/building-1-1920w.jpg"
+                />
+                <span class="card-grid__title">Residential</span>
+                <div class="card-grid-hover__bg"></div>
+                <div class="card-grid-hover__content">
+                  <p class="fw-bold mb-3">
+                    Lorem ipsum dolor sit amet. &amp; Lorem
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloremque rem reiciendis sit a harum obcaecati vero ab, eos
+                    aperiam placeat et quaerat minima similique nostrum!
+                  </p>
+                </div>
+              </figure>
+
+              <figure
+                class="card-grid services-grid__item services-grid__item--3"
+              >
+                <img
+                  srcset="
+                    ./src/images/grid/airport-2-640w.jpg  1x,
+                    ./src/images/grid/airport-2-1920w.jpg 2x
+                  "
+                  class="card-grid__image"
+                  alt="airport"
+                  src="./src/images/grid/airport-2-1920w.jpg"
+                />
+                <span class="card-grid__title">Airports</span>
+                <div class="card-grid-hover__bg"></div>
+                <div class="card-grid-hover__content">
+                  <p class="fw-bold mb-3">
+                    Lorem ipsum dolor sit amet. &amp; Lorem
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloremque rem reiciendis sit a harum obcaecati vero ab, eos
+                    aperiam placeat et quaerat minima similique nostrum!
+                  </p>
+                </div>
+              </figure>
+
+              <figure
+                class="card-grid services-grid__item services-grid__item--4"
+              >
+                <img
+                  srcset="
+                    ./src/images/grid/skyscrapper-1-640w.jpg  1x,
+                    ./src/images/grid/skyscrapper-1-1920w.jpg 2x
+                  "
+                  class="card-grid__image"
+                  alt="skyscrapper"
+                  src="./src/images/grid/skyscrapper-1-1920w.jpg"
+                />
+                <span class="card-grid__title">Skyscrappers</span>
+                <div class="card-grid-hover__bg"></div>
+                <div class="card-grid-hover__content">
+                  <p class="fw-bold mb-3">
+                    Lorem ipsum dolor sit amet. &amp; Lorem
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloremque rem reiciendis sit a harum obcaecati vero ab, eos
+                    aperiam placeat et quaerat minima similique nostrum!
+                  </p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achivements -->
+      <section class="section section-achivements container-fluid">
+        <div class="achivements container text-center text-white">
+          <div class="row justify-center">
+            <div class="col-md-12 text-center">
+              <h2 class="heading-secondary mt-4">Achivements</h2>
+              <div class="divider"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 py-2">
+              <svg class="achivements__icon mb-4">
+                <use
+                  xlink:href="./src/images/icons.svg#icon-location-pin"
+                ></use>
+              </svg>
+              <h4>Lorem Ipsum</h4>
+              <p class="mx-5 mx-md-0">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                euismod.
+              </p>
+            </div>
+            <div class="col-md-4 py-2">
+              <svg class="achivements__icon mb-4">
+                <use xlink:href="./src/images/icons.svg#icon-home"></use>
+              </svg>
+              <h4>Lorem Ipsum</h4>
+              <p class="mx-5 mx-md-0">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                euismod.
+              </p>
+            </div>
+            <div class="col-md-4 py-2">
+              <svg class="achivements__icon mb-4">
+                <use xlink:href="./src/images/icons.svg#icon-key"></use>
+              </svg>
+              <h4>Lorem Ipsum</h4>
+              <p class="mx-5 mx-md-0">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                euismod.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section
+        id="section-projects"
+        class="section section-projects container-fluid bg-light"
+      >
+        <div class="container p-0">
+          <div class="row p-0">
+            <div
+              class="col-12 col-md-6 d-flex flex-column justify-content-center"
+            >
+              <div class="projects">
+                <h2 class="heading-secondary mb-5">Our Projects</h2>
+                <h3 class="heading-tertiary mb-3">
+                  Lorem ipsum dolor sit amet
+                </h3>
+                <p class="projects__text mb-5">
+                  Digitalization, mechanization and the ability to mobilise
+                  large, skilled crews, enable us to meet stringent deadlines
+                  and rigorous standards and deliver to speed and scale.
+                </p>
+
+                <div class="projects__list-box w-75 py-5">
+                  <div class="projects__list-box--empty"></div>
+
+                  <h3 class="heading-tertiary mb-4">Lorem Ipsum</h3>
+                  <ul class="projects__list">
+                    <li class="mb-2">
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li class="mb-2">
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li class="mb-2">
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li class="mb-2">
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-light slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators w-100">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img
+                      srcset="
+                        /src/images/projects/building-1200w.jpg 1x,
+                        /src/images/projects/building-2400w.jpg 2x
+                      "
+                      class="d-block carousel__image"
+                      alt="Building Project"
+                      src="src/images/projects/building-2400w.jpg"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      srcset="
+                        /src/images/projects/airport-1200w.jpg 1x,
+                        /src/images/projects/airport-2400w.jpg 2x
+                      "
+                      class="d-block carousel__image"
+                      alt="Airport Project"
+                      src="/src/images/projects/airport-2400w.jpg"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      srcset="
+                        /src/images/projects/modern-building-1200w.jpg 1x,
+                        /src/images/projects/modern-building-2400w.jpg 2x
+                      "
+                      class="d-block carousel__image"
+                      alt="Building Project"
+                      src="/src/images/projects/modern-building-2400w.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonies -->
+      <section class="section section-testimonies container-fluid">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 text-center text-md-left">
+              <h2 class="heading-secondary mb-5">Our partners</h2>
+            </div>
+
+            <div class="col-12 pt-lg-0 pb-0">
+              <div class="container">
                 <div class="row">
-
-                    <div class="col-12 text-center text-md-left my-5">
-                        <h1 class='mb-3'>Productos de las más alta calidad</h1>
-                        <h3>Diseñamos y desarrollamos sistemas de la más alta calidad para satisfacer las necesidades de
-                            servicios de la red hidráulica.</h3>
+                  <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
+                    <div class="card card-simple">
+                      <div
+                        class="card-body d-flex flex-column justify-content-center py-4"
+                      >
+                        <span class="d-block h1 display-4">380</span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque velit felis.
+                        </p>
+                      </div>
                     </div>
+                  </div>
 
-                    <div class="grid col-12 d-md-flex">
-
-                        <div class="d-flex flex-column flex-fill ">
-
-                            <div class="d-block d-md-flex">
-                                <figure class="grid__img grid__img--2 flex-fill" vinculo="categorias.html"></figure>
-                                <figure class="grid__img grid__img--3 flex-fill" vinculo="categorias.html"></figure>
-                            </div>
-
-                            <figure class="grid__img grid__img--4" vinculo="categorias.html"></figure>
-
-                        </div>
-
-                        <div class="grid__col-right d-flex flex-column">
-                            <figure class="grid__img grid__img--1" vinculo="categorias.html"></figure>
-                        </div>
+                  <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
+                    <div class="card card-simple">
+                      <div
+                        class="card-body d-flex flex-column justify-content-center py-4"
+                      >
+                        <span class="d-block h1 display-4">4.79</span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque velit felis.
+                        </p>
+                      </div>
                     </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
+                    <div class="card card-simple">
+                      <div
+                        class="card-body d-flex flex-column justify-content-center py-4"
+                      >
+                        <span class="d-block h1 display-4">Unlimited</span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque velit felis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
+                    <div class="card card-simple">
+                      <div
+                        class="card-body d-flex flex-column justify-content-center py-4"
+                      >
+                        <span class="d-block h1 display-4">Unlimited</span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque velit felis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Hints -->
-        <section class="section-hints container-fluid">
-            <div class="hints container text-center text-white">
-                <div class="row justify-center">
-                    <div class="col-md-12 text-center">
-                        <h2 class="mt-4">Lorem Ipsum</h2>
-                        <div class="divider"></div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 py-2">
-                        <h4>Lorem Ipsum</h4>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                    </div>
-                    <div class="col-md-4 py-2">
-                        <h4>Lorem Ipsum</h4>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                    </div>
-                    <div class="col-md-4 py-2">
-                        <h4>Lorem Ipsum</h4>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                    </div>
-                </div>
+      <!-- About Us -->
+      <section
+        id="section-about-us"
+        class="section section-about-us container-fluid"
+      >
+        <div class="about-us">
+          <div class="row">
+            <div class="col-lg-6 p-0">
+              <img
+                srcset="
+                  ./src/images/hospital-3-640w.jpg  1x,
+                  ./src/images/hospital-3-1920w.jpg 2x
+                "
+                class="about-us__image"
+                alt="Hospital"
+                src="./src/images/hospital-3-1920w.jpg"
+              />
             </div>
-        </section>
 
-        <!-- Projects -->
-        <section id="section-aboutus" class="section-aboutus container-fluid bg-light">
-            <div class="container p-0">
-                <div class="row">
-                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                        <div class="text-component--1">
-                            <h1 class="title my-5">Lorem Ipsum</h1>
-                            <h2 class="mb-3">Lorem ipsum dolor sit amet</h2>
-                            <h4 class="description mb-5 pe-5">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit felis,
-                                ultricies id tempor semper, vehicula vitae justo. Mauris vulputate at diam a commodo.
-                                Cras et fringilla erat. Fusce auctor libero quis accumsan imperdiet.
-                                Nullam malesuada nibh vel orci tincidunt dictum.</h4>
-
-                            <h4 class="mb-3 p-2 w-75 bg-white">Lorem ipsum dolor sit amet.</h5>
-
-                                <div class="achivements-box">
-                                    <ul class="achivements-box__list bg-white py-3 w-100 list-unstyled">
-                                        <li class="mb-2">lorem</li>
-                                        <li class="mb-2">lorem</li>
-                                        <li class="mb-2">lorem</li>
-                                        <li class="mb-2">lorem</li>
-                                        <li>lorem</li>
-                                    </ul>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators w-100">
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="src/images/constructionsite2.jpg" class="d-block carousel__img"
-                                        alt="construction">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="src/images/constructionsite1.jpg" class="d-block carousel__img"
-                                        alt="construction">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="src/images/upper-view-construction.jpg" class="d-block carousel__img"
-                                        alt="construction">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center text-start p-0"
+            >
+              <div class="about-us__body">
+                <div class="align-items-center mb-4">
+                  <h2 class="heading-secondary">About Us</h2>
                 </div>
-            </div>
-        </section>
 
-        <!-- Clients -->
-        <section class="section-clients container-fluid bg-white">
+                <p class="about-us__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque velit felis, ultricies id tempor semper, vehicula
+                  vitae justo. Mauris vulputate at diam a commodo. Cras et
+                  fringilla erat.
+                </p>
+
+                <p class="about-us__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque velit felis, ultricies id tempor semper, vehicula
+                  vitae justo.
+                </p>
+
+                <p class="about-us__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brands -->
+      <section class="section section-brands container-fluid bg-light">
+        <div class="row">
+          <h2 class="heading-secondary text-center">Our Brands</h2>
+        </div>
+        <div class="row">
+          <div class="container-fluid">
             <div class="container">
-                <div class="row align-items-center">
+              <div class="brand-slider jd-slider">
+                <div class="slide-inner">
+                  <ul class="slide-area">
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_globe.svg"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
 
-                    <div class="col-12">
-                        <h1 class="text-underline py-5 mb-5">our partners</h1>
-                    </div>
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_fire-lite.png"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
 
-                    <div class="col-12 pt-lg-0 pb-0">
-                        <div class="container">
-                            <div class="row">
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_vitaulic.png"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
 
-                                <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
-                                    <div class="card card-component--1">
-                                        <div class="card-body d-flex flex-column justify-content-center py-4">
-                                            <span class="d-block h1 display-4">380</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                                                velit felis.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_durman.png"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
 
-                                <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
-                                    <div class="card card-component--1">
-                                        <div class="card-body d-flex flex-column justify-content-center py-4">
-                                            <span class="d-block h1 display-4">4.79</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                                                velit felis.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_soval.png"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
 
-                                <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
-                                    <div class="card card-component--1">
-                                        <div class="card-body d-flex flex-column justify-content-center py-4">
-                                            <span class="d-block h1 display-4">Unlimited</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                                                velit felis.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_grundfos.svg"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
 
-                                <div class="col-12 col-sm-6 col-xl-3 d-lg-flex">
-                                    <div class="card card-component--1">
-                                        <div class="card-body d-flex flex-column justify-content-center py-4">
-                                            <span class="d-block h1 display-4">Unlimited</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                                                velit felis.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_tododren.png"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
+
+                    <li class="slide-item d-flex me-2">
+                      <img
+                        src="src/images/brands/brand_helvex.png"
+                        alt="Brand"
+                        class="w-50 m-auto"
+                      />
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </section>
 
-        <!-- Testimonies -->
-        <section class="section-testimonies container-fluid bg-white">
-            <div class="testimonies container">
-                <div class="row text-center">
-                    <div class="col-12 pt-5 d-flex justify-content-end">
-                        <h2 class="display-inline-block mb-5">Our events partners</h2>
-                    </div>
+                <div class="controller d-none">
+                  <a class="auto" href="#">
+                    <i class="fas fa-play fa-xs"></i>
+                    <i class="fas fa-pause fa-xs"></i>
+                  </a>
 
-                    <div class="col-lg-6 pr-lg-6">
-                        <div class="media align-items-center mb-4">
-                            <!-- <img class="me-3" src="" alt="" height="70"> -->
-                            <div class="media-body">
-                                <h4>Lorem Ipsum</h4>
-                            </div>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit felis,
-                            ultricies id tempor semper, vehicula vitae justo. Mauris vulputate at diam a commodo.
-                            Cras et fringilla erat.</p>
-                    </div>
-
-                    <div class="col-lg-6 pt-6 pt-lg-0 pr-lg-6">
-                        <div class="media align-items-center mb-4">
-                            <!-- <img class="me-3" src="" alt="" height="70"> -->
-                            <div class="media-body">
-                                <h4>Lorem Ipsum</h4>
-                            </div>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit felis,
-                            ultricies id tempor semper, vehicula vitae justo. Mauris vulputate at diam a commodo.
-                            Cras et fringilla erat.</p>
-                    </div>
+                  <div class="indicate-area"></div>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Brands -->
-        <section class="section-brands container-fluid bg-light">
-            <div class="container">
-                <div class="brand-slider jd-slider">
-                    <div class="slide-inner">
-                        <ul class="slide-area">
+      <!-- Contact -->
+      <section
+        id="section-contact"
+        class="section section-contact container-fluid"
+      >
+        <div class="contact container text-center">
+          <h2 class="heading-secondary mb-5">Contact</h2>
+          <div class="row">
+            <div
+              class="col-12 col-lg-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="contact__data bg-dark text-white mx-5">
+                <p class="fw-bold pt-4 mb-3">Email</p>
+                <p>hidrocermx@gmail.com</p>
+                <p class="fw-bold pt-4 mb-3">Phone</p>
+                <p>+52 9999999</p>
+                <p class="fw-bold pt-4 mb-3">Address</p>
+                <p>Lorem #9, New York</p>
+              </div>
+            </div>
 
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_globe.svg" alt="marca" class="w-50 m-auto">
-                            </li>
+            <div class="col-12 col-lg-8">
+              <form class="contact__form mx-5">
+                <div class="form-row row">
+                  <div class="form-group col-sm-6">
+                    <label for="nombre">Name</label>
+                    <input
+                      type="text"
+                      class="form-control form-control--input"
+                      id="nombre"
+                    />
+                  </div>
 
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_fire-lite.png" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_vitaulic.png" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_durman.png" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_soval.png" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_grundfos.svg" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_tododren.png" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                            <li class="slide-item d-flex me-2">
-                                <img src="src/images/marca_helvex.png" alt="marca" class="w-50 m-auto">
-                            </li>
-
-                        </ul>
-                    </div>
-
-                    <div class="controller d-none">
-
-                        <a class="auto" href="#">
-
-                            <i class="fas fa-play fa-xs"></i>
-                            <i class="fas fa-pause fa-xs"></i>
-
-                        </a>
-
-                        <div class="indicate-area"></div>
-
-                    </div>
-
+                  <div class="form-group col-sm-6">
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      class="form-control form-control--input"
+                      id="email"
+                    />
+                  </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Contact -->
-        <section id="section-contact" class="section-contact container-fluid bg-white">
-            <div class="contact container">
-                <div class="row">
-                    <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
-                        <div class="contact__data bg-dark text-white mx-5">
-                            <h1>Contacto</h1>
-                            <h4 class="pt-4 mb-3">Email</h4>
-                            <p>hidrocermx@gmail.com</p>
-                            <h4 class="pt-2 mb-3">Phone</h4>
-                            <p>+52 9999999</p>
-                        </div>
-                    </div>
+                <div class="form-row row">
+                  <div class="form-group col-sm-6">
+                    <label for="phone">Phone</label>
+                    <input
+                      type="tel"
+                      class="form-control form-control--input"
+                      id="phone"
+                    />
+                  </div>
 
-                    <div class="col-12 col-lg-8">
-                        <form class="contact__form mx-5">
-                            <div class="form-row row">
-                                <div class="form-group col-sm-6">
-                                    <label for="nombre">Nombre</label>
-                                    <input type="text" class="form-control form-control--input" id="nombre">
-                                </div>
-
-                                <div class="form-group col-sm-6">
-                                    <label for="email">Email</label>
-                                    <input type="text" class="form-control form-control--input" id="email">
-                                </div>
-                            </div>
-
-                            <div class="form-row row">
-                                <div class="form-group col-sm-6">
-                                    <label for="telefono">Teléfono</label>
-                                    <input type="number" class="form-control form-control--input" id="telefono">
-                                </div>
-
-                                <div class="form-group col-sm-6">
-                                    <label for="estado">Estado</label>
-                                    <select id="estado" class="form-control form-control--input">
-                                        <option selected>Puebla</option>
-                                        <option>Ciudad de México</option>
-                                        <option>Mérida</option>
-                                        <option>Monterrey</option>
-                                        <option>Tlaxcala</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="comentario">Comentario</label>
-                                <textarea id="comentario" class="form-control " rows="10"></textarea>
-                            </div>
-
-                            <button type="submit" class="btn btn-form btn-tertiary mt-5 d-block w-100">Enviar</button>
-                        </form>
-                    </div>
-
+                  <div class="form-group col-sm-6">
+                    <label for="estado">State</label>
+                    <select
+                      id="estado"
+                      class="form-control form-control--input"
+                    >
+                      <option selected>New York</option>
+                      <option>Los Angeles</option>
+                      <option>Nashville</option>
+                      <option>Orlando</option>
+                      <option>Miami</option>
+                    </select>
+                  </div>
                 </div>
+
+                <div class="form-group">
+                  <label for="coment">Coment</label>
+                  <textarea
+                    id="coment"
+                    class="form-control"
+                    rows="10"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-form btn-tertiary mt-5 d-block w-25"
+                >
+                  Enviar
+                </button>
+              </form>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="row footer__main align-items-center text-center text-sm-start">
+      <div class="container">
+        <div
+          class="row footer__main align-items-center text-center text-sm-start"
+        >
+          <div class="col-sm-3 d-flex flex-column align-items-center">
+            <a class="text-dark text-decoration-none" href="/#">
+              <h1>HIDRO<span style="font-weight: 100">CER</span></h1>
+            </a>
+          </div>
 
-                <div class="col-sm-3 d-flex flex-column align-items-center">
-                    <a class="text-dark text-decoration-none" href="/#">
-                        <h1>HIDRO<span style="font-weight: 100">CER</span></h1>
-                    </a>
-                </div>
+          <div class="col-sm-4 d-flex justify-content-center">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              laboriosam nesciunt voluptas quas quae.
+            </p>
+          </div>
 
-                <div class="col-sm-4 d-flex justify-content-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laboriosam nesciunt voluptas quas
-                        quae.</p>
-                </div>
+          <div class="col-sm-3 d-flex flex-column align-items-center">
+            <address>
+              <p style="margin: 1% 0">
+                <span class="oi oi-home footer-adress-icon"></span>lorem #9, New
+                York
+              </p>
+              <p style="margin: 1% 0">
+                <span class="oi oi-phone footer-adress-icon"></span>+52 7974531
+              </p>
+              <p style="margin: 1% 0">
+                <span class="oi oi-envelope-closed footer-adress-icon"></span>
+                hidrocer@gmail.com
+              </p>
+            </address>
+          </div>
 
-                <div class="col-sm-3 d-flex flex-column align-items-center">
-                    <address>
-                        <p style="margin: 1% 0;"><span class="oi oi-home footer-adress-icon"></span>lorem #9,
-                            Puebla</p>
-                        <p style="margin: 1% 0;"><span class="oi oi-phone footer-adress-icon"></span>+52 9999999</p>
-                        <p style="margin: 1% 0;"><span class="oi oi-envelope-closed footer-adress-icon"></span>
-                            hidrocermx@gmail.com</p>
-                    </address>
-                </div>
-
-                <div class="col-sm-2 d-flex justify-content-center flex-md-column flex-wrap text-center">
-                    <a href="/#section-about" class="text-dark text-decoration-none">Nosotros</a>
-                    <a href="/#section-contact" class="text-dark text-decoration-none">Contacto</a>
-                    <a href="/#" class="text-dark text-decoration-none">Inicio</a>
-                </div>
-            </div>
-
-            <div class="row footer__copyright py-5">
-                <p class="m-auto small">© 2021 Hidrocer. All rights reserved.</p>
-            </div>
-
+          <div
+            class="col-sm-2 d-flex justify-content-center flex-md-column flex-wrap text-center"
+          >
+            <a href="/#" class="text-dark text-decoration-none">Home</a>
+            <a href="/#section-services" class="text-dark text-decoration-none"
+              >Services</a
+            >
+            <a href="/#section-projects" class="text-dark text-decoration-none"
+              >Projects</a
+            >
+            <a href="/#section-about-us" class="text-dark text-decoration-none"
+              >About Us</a
+            >
+            <a href="/#section-contact" class="text-dark text-decoration-none"
+              >Contact</a
+            >
+          </div>
         </div>
+
+        <div class="row footer__copyright">
+          <p class="m-auto small">© 2022 Hidrocer. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

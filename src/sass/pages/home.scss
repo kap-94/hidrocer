@@ -1,38 +1,46 @@
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 .section-hero {
-  height: 75vh;
+  height: 80vh;
   max-width: 1440px;
   overflow: hidden;
 }
 
 .section-presentation {
-  padding: 15rem 0 7rem 0;
+  padding: 5vw 7rem;
 }
 
 .section-services {
-  max-width: 1440px;
-  padding: 5rem 0 10rem;
+  padding: 0 0 13.5rem;
 }
 
-.section-hints {
+.section-achivements {
   padding: 4rem 0;
   background-color: var(--color-primary);
 }
 
-.section-aboutus {
+.section-projects {
   overflow: hidden;
-  padding: 8rem 0;
-}
-
-.section-clients {
-  padding: 5rem 0;
+  padding: 14rem 0;
 }
 
 .section-testimonies {
-  padding: 10rem 0 15rem;
+  padding: 15rem 0;
+}
+
+.section-about-us {
+  padding: 0rem 0 15rem;
 }
 
 .section-brands {
-  padding: 4rem 0;
+  padding: 10rem 0 5.75rem;
 }
 
 .section-contact {

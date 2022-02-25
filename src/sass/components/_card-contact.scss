@@ -1,0 +1,49 @@
+.card-contact {
+  background-color: var(--color-white);
+  color: var(--grey-dark);
+  display: flex;
+  align-items: center;
+  height: 13.75rem;
+  padding: 0 3rem;
+
+  &__text {
+    animation: moveInBottom 2s ease-out;
+
+    @include respond(sm) {
+      padding-right: 1.75rem;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    padding: 2rem;
+    margin: 0 auto;
+
+    @supports (shape-outside: circle(50% at 50% 50%)) or
+      (-webkit-shape-outside: circle(50% at 50% 50%)) {
+      shape-outside: circle(50% at 50% 50%);
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      border-radius: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    @include respond(sm) {
+      border-radius: 50%;
+      padding: 3rem;
+    }
+  }
+
+  @include respond(sm) {
+    height: 20rem;
+    padding: 1.5rem 3rem;
+    width: 50%;
+  }
+
+  @include respond(xl) {
+    padding: 5rem;
+    width: 45%;
+  }
+}

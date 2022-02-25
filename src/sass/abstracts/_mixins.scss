@@ -27,35 +27,35 @@
 
 @mixin respond($breakpoint) {
   @if $breakpoint == sm {
-    @media (min-width: 36em) {
+    @media only screen and (min-width: 36em) {
       // 576px
       @content;
     }
   }
 
   @if $breakpoint == md {
-    @media (min-width: 48em) {
+    @media only screen and (min-width: 48em) {
       // 768px
       @content;
     }
   }
 
   @if $breakpoint == lg {
-    @media (min-width: 62em) {
+    @media only screen and (min-width: 62em) {
       // 992px
       @content;
     }
   }
 
   @if $breakpoint == xl {
-    @media (min-width: 75em) {
+    @media only screen and (min-width: 75em) {
       // 1200px
       @content;
     }
   }
 
   @if $breakpoint == xxl {
-    @media (min-width: 87.5em) {
+    @media only screen and (min-width: 87.5em) {
       // 1400px
       @content;
     }

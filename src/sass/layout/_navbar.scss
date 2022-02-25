@@ -15,6 +15,11 @@
 .navbar-brand,
 .navbar-contact {
   color: var(--color-white);
+
+  &:hover,
+  &:visited {
+    color: var(--color-white);
+  }
 }
 
 .navbar-nav {
@@ -38,7 +43,4 @@
 
 .scrolled {
   background-color: var(--color-primary);
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  max-width: 100%;
 }

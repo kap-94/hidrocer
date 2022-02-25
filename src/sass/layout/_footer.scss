@@ -1,12 +1,13 @@
 .footer {
-  background-color: var(--color-grey-light);
+  background-color: var(--color-gray-light);
 
   &__main {
-    padding: 8rem 1rem;
+    padding: 10rem 1rem;
   }
 
   &__copyright {
-    text-align: center;
     border-top: 1px solid #777;
+    text-align: center;
+    padding: 3rem 0;
   }
 }
