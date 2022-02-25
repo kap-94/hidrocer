@@ -6,11 +6,12 @@ body {
 }
 
 .heading-primary {
-  line-height: 0.75;
-  margin-top: 20vh;
   font-size: 3.15rem;
   font-weight: 700;
   text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 0.75;
+  margin-top: 20vh;
   text-transform: uppercase;
   padding: 0 1rem;
 
@@ -47,18 +48,29 @@ body {
   display: inline-block;
   letter-spacing: 0.1rem;
   transition: all 0.2s;
-
-  @include respond(md) {
-    // font-size: 2rem;
-  }
 }
 
 .heading-tertiary {
   font-weight: 700;
 }
 
+.heading-fourth {
+  font-size: 2rem;
+  font-weight: 400;
+  display: inline-block;
+  letter-spacing: 0.1rem;
+}
+
 .paragraph {
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+}
+
+.divider {
+  display: block;
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #dfe1e5;
+  margin: 2rem auto;
 }

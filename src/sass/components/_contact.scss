@@ -53,6 +53,9 @@
   }
 
   &__data {
+    background-color: #555;
+    box-shadow: 8px 8px 0 0 var(--color-primary);
+    color: var(--color-gray-light);
     line-height: 1;
     letter-spacing: 1.5px;
     margin-bottom: 13.5rem;
