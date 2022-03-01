@@ -6,6 +6,7 @@ body {
 }
 
 .heading-primary {
+  font-family: "Roboto", sans-serif;
   font-size: 3.15rem;
   font-weight: 700;
   text-align: center;
@@ -23,12 +24,13 @@ body {
   }
 
   @include respond(md) {
-    line-height: 0.685;
+    line-height: 0.625;
+    // line-height: 0.685;
     font-size: 4.65rem;
   }
 
   @include respond(lg) {
-    font-size: 5.3rem;
+    font-size: 6.4rem;
   }
 
   &--main {
